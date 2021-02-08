@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif";
+     font-size: 10px;
+
+}
+.box{
+    width: 445px;
+    padding: 288.2px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    
+}
+.box1 span{
+    font-family: "PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif";
+      font-size: 14px;
+      letter-spacing: 0;
+      margin-right: 20px;
+      margin-bottom: 12px;
+      
+      
+      
+
+
+}
+.active{
+    color: cornflowerblue;
+}
+.box2 input{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #aaa;
+    font-size: 14px;
+    padding: 10px;
+    height: 18px;
+    vertical-align: middle;
+    border-radius: 4px;
+    width:450px;
+    margin-bottom: 10px;
+}
+
+.box3{
+    
+    margin-bottom: 10px;
+    width: 450px;
+    height: 16px;
+    float: left;
+}
+.box3 input
+{
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+}
+.box3 #bushi{
+    color: grey;
+    font-weight: lighter;
+    font-size: 3px;
+}
+.box3 .forget-password{
+
+    width: 53.8px;
+    height: 16px;
+    float: right;
+    color: #00a1d6;
+    margin: 6.3px;
+    text-decoration: none;
+    
+}
+.box3 .not-checkout{
+    width: 53.8px;
+    height: 16px;
+    float: right;
+    color: #00a1d6;
+    margin-right: 10px;
+    margin: 6.3px;
+    text-decoration: none;
+}
+.box5{
+    width: 414px;
+    height: 38px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+   
+}
+.box5 .btn1{
+  
+   
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+    display: inline-block;
+    border-radius: 2px;
+    height: 36px;
+    width: 184px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.box5 .btn2{
+    border: 1px solid #0381aa;
+    color: grey;
+    text-decoration: none;
+    background-color:white;
+    display: inline-block;
+    border-radius: 2px;
+    height: 36px;
+    width: 184px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    right: -56px;
+}
+.box4{
+    padding: 12px 0;
+    font-size: 12px;
+    justify-content: space-between;
+    color: #717171;
+    cursor: pointer;
+}
+.box4 .btn1::before{
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(2.png);
+    vertical-align: middle;
+    margin-right: 5px; 
+
+}
+.box4 .btn2::before{
+    background-position: 0 -41px;
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(3.png);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+
+
