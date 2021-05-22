@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+img{
+    height: 20px;
+    width: 20px;
+}
+div, footer, li, ol, p, section, ul {
+    box-sizing: border-box;
+}
+
+
+ul{
+    padding-inline-start: 2px;
+    list-style: none;
+}
+#search li{
+    box-sizing: border-box;
+    background: #f2f2f2;
+    border-radius: 44px;
+    padding: 0 16px;
+    width: 30%;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #434343;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px;
+}
+#main{
+    height: 470px;
+     background-image: linear-gradient(
+-90deg
+,#3bbcff,#4af4ff);
+     background-image: -webkit-linear-gradient(
+-90deg
+,#3bbcff,#4af4ff); 
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.one{
+    position: relative;
+}
+
+
+
+/* 头部导航栏 */
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px 15px;
+    position: relative;
+    align-items: center;
+
+}
+.h1{
+    float: left;
+}
+.h2{
+float: left;
+line-height: 20px;
+color: white;
+}
+.h2 img{
+    height: 18px;
+
+}
+.h3{
+   float: right;
+}
+
+/* 头部搜索栏 */
+
+#search{
+    position: absolute;
+    width: 100%;
+    top: -10px;
+   
+    background-color: white;
+    display: none;
+    z-index: 5;
+    height: 2000px;
+}
+.input2{
+   position: absolute;
+   left:18px;
+   top: 5px;
+   width: 22px;
+
+}
+
+.input1{
+    margin-top: 8px;
+    width: 81%;
+    height: 30px;
+    padding: 5px 0 5px 32px;
+    box-sizing: border-box;
+    line-height: 24px;
+    background: #f2f2f2;
+    border-radius: 44px;
+    font-size: 14px;
+    color: #434343;
+    -webkit-appearance: none;
+    border-width: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+.input3{
+    font-size: 14px;
+    color: #434343;
+    width: 10%;
+    line-height: 30px;
+    text-align: center;
+}
+.liebiao{
+    display: flex;
+    justify-content:left;
+}
+
+/* 中上区域 */
+.leftlog{
+    background-color: #f0cc35;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 12%);
+    height: 44px;
+    padding: 8px 12px;
+    position: absolute;
+    border-radius: 8px;
+    top: 67px;
+    left: 8px;
+    background: #ffbf62;
+}
+.leftlog div{
+    position: relative;
+   
+}
+
+.leflog1{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    
+    background-color: pink;
+   
+}
+#til{
+    opacity: .8;
+    font-size: 12px;
+    color: #fff;
+    line-height: 12px;
+    height: 12px;
+    margin-bottom: 5px;
+}
+#value{
+    margin-top: 2px;
+    font-size: 12px;
+    color: #fff;
+    height: 14px;
+    line-height: 14px;
+}
+/* 中间区域 */
+.middle{
+    position: relative;
+    top: 50px;
+}
+#text_tem{
+    font-size: 62px;
+    color: #fff;
+    line-height: 62px;
+    height: 62px;
+    margin-top: 66px;
+    text-align: center;
+    width: 50px;
+    margin-left: 43%;
+    /* background-color: black; */
+}
+#text_wea{
+    font-size: 22px;
+    color: #fff;
+    line-height: 22px;
+    height: 22px;
+    margin-top: 8px;
+    position: relative;
+
+}
+#text_win{
+    margin-top: 10px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+
+}
+/* 中下区域 */
+.middle2{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    top: 137px;
+    
+}
+
+/* 明天区域 */
+#sec-to{
+    background: #fff;
+    height: 103px;
+    padding-top: 26px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    position: relative;
+}
+#sec-to .item{
+    float: left;
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    padding: 0 20px;
+}
+.weather{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px ;
+}
+.temperature{
+    float: right;
+}
+.date1{
+    float: left;
+}
+.top{
+    height: 12px;
+    margin-bottom: 13px;
+}
+.bottom{
+    height: 22px;
+    margin-top: 13px;
+
+}
+#sec-to .item .bottom .logo {
+    float: right;
+
+}
+
+/* 24时间报 */
+.sevenday{
+    height: 136px;
+    border-bottom: 5px solid #e4e4e4;
+    background-color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    white-space: nowrap;
+}
+.sevenday .scroll .ls- .item{
+    float: left;
+    width: 2.083%;
+    text-align: center;
+    position: relative;
+    list-style: none;
+}
+.sevenday .scroll .ls- .item .txt-time{
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    color: #999;
+}
+.sevenday .scroll .ls- .item .icon{
+    height: 24px;
+    width: 24px;
+    display: block;
+    margin: 15px auto;
+}
+.sevenday .scroll .ls- .item .txt-degree {
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+    position: relative;
+}
+/* 7天预测 */
+
+.dats{
+    height: 391px;
+    border-bottom: 5px solid #e4e4e4;
+    background-color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    white-space: nowrap;
+}
+#days .item{
+    float: left;
+    text-align: center;
+
+}
+.day{
+    font-size: 12px;
+    color: #999;
+    line-height: 12px;
+    height: 12px;
+}
+ .date{
+
+    font-size: 12px;
+    color: #999;
+    line-height: 12px;
+    height: 12px;
+    margin: 5px 0 15px;
+
+}
+
+.weather1{
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+
+
+}
+.ct-night{
+    margin-top: 136px;
+}
+.wind{
+    margin: 16px 0 20px;
+    font-size: 14px;
+    color: #434343;
+    line-height: 14px;
+    height: 14px;
+}
+/* 生活 */
+.sec-living{
+width: 300%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#living-scroll .ls-living{
+    width:50%;
+    float:left;
+    border-top:1px solid #e4e4e4;
+    border-right:1px solid #e4e4e4;
+    border-bottom:1px solid #e4e4e4}
+#living-scroll .ls-living:first-child{
+    border-left:1px solid #e4e4e4}
+#living-scroll .ls-living .item{
+    background-color:#fff;
+    float:left;
+    text-align:center;
+    width:25%;
+    height:94px;
+    border-right:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+    box-sizing:border-box}
+#living-scroll .ls-living .item:nth-child(4n){
+    border-right-width:0}
+#living-scroll .ls-living .item:nth-child(n+5){
+    border-bottom-width:0}
+#living-scroll .ls-living .item .icon{
+    height:24px;
+    width:24px;
+    display:block;
+    margin:15px auto 10px;
+    background-size:24px}
+
+#living-scroll .ls-living .item .icon_chuanyi_hot{
+    background-image: url(./images/穿衣.svg);
+}#living-scroll .ls-living .item .icon_yusan{
+    background-image: url(./images/雨伞.svg);
+}#living-scroll .ls-living .item .icon_ganmao{
+    background-image: url(./images/感冒.svg);
+}#living-scroll .ls-living .item .icon_huazhuang{
+    background-image: url(./images/化妆.svg);
+}#living-scroll .ls-living .item .icon_xiche{
+    background-image: url(./images/洗车.svg);
+}#living-scroll .ls-living .item .icon_yundong{
+    background-image: url(./images/运动.svg);
+}#living-scroll .ls-living .item .icon_fangsai{
+    background-image: url(./images/防晒.svg);
+}#living-scroll .ls-living .item .icon_diaoyu{
+    background-image: url(./images/钓鱼.svg);
+}#living-scroll .ls-living .item .icon_xianhao{
+    background-image: url(./images/限行.svg);
+}#living-scroll .ls-living .item .icon_guomin{
+    background-image: url(./images/过敏.svg);
+}#living-scroll .ls-living .item .icon_wurankuosan{
+    background-image: url(./images/污染.svg);
+}#living-scroll .ls-living .item .icon_lvyou{
+    background-image: url(./images/旅游.svg);
+}#living-scroll .ls-living .item .icon_jiaotong{
+    background-image: url(./images/交通.svg);
+}#living-scroll .ls-living .item .icon_chenlian{
+    background-image: url(./images/晨练.svg);
+}#living-scroll .ls-living .item .icon_liangshai{
+    background-image: url(./images/晾晒.svg);
+}#living-scroll .ls-living .item .icon_shushidu{
+    background-image: url(./images/舒适度.svg);
+}
+#living-scroll .ls-living .item .content{
+    font-size:14px;
+    color:#434343;
+    line-height:14px;
+    height:14px;
+    margin-bottom:6px}
+#living-scroll .ls-living .item .title,#sec-living #living-scroll .ls-living .item .title_wurankuosan{
+    color:#999;
+    height:12px;
+    line-height:12px}
+#living-scroll .ls-living .item title{
+    font-size:12px}
+
+
+
